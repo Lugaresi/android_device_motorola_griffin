@@ -455,3 +455,7 @@ PRODUCT_COPY_FILES += \
 # Email not in AICP?!
 PRODUCT_PACKAGES += \
     Email
+
+# Add swipe libs
+PRODUCT_PACKAGES += \
+    libjni_latinimegoogle
