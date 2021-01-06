@@ -445,6 +445,7 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     wificond \
     wifilogd \
+    WifiOverlay \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf \
