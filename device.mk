@@ -402,6 +402,11 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
+# TimeKeep
+PRODUCT_PACKAGES += \
+    timekeep \
+    TimeKeep
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
