@@ -80,6 +80,10 @@ function blob_fixup() {
         sed -i "s/libgui/libwui/" "${2}"
         ;;
 
+    vendor/lib64/libsettings.so)
+        patchelf --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v28.so" "${2}"
+        ;;
+
     esac
 }
 
