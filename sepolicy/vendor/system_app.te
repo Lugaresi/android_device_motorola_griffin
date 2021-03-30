@@ -5,3 +5,5 @@ allow system_app wificond:binder call;
 allow system_app sysfs_rtc:dir { r_dir_perms search };
 
 allow system_app vendor_time_data_file:dir { r_dir_perms search };
+
+allow system_app hal_power_default:binder call;
